@@ -1,7 +1,7 @@
 import axios from 'axios'
 import config from '@config/config.json'
 import { SendTaskCalculated } from '@application/usecases/send-task-calculated/SendTaskCalculated'
-import TaskServices from '@infraestructure/services/TaskServices'
+import TaskServices from '@infrastructure/services/TaskServices'
 
 function main () {
   const instance = axios.create(config.httpConfig)

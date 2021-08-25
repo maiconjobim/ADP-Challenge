@@ -1,4 +1,4 @@
-import { ITaskServices } from '@infraestructure/services/ITaskServices'
+import { ITaskServices } from '@infrastructure/services/ITaskServices'
 import { CalculateTask } from '@domain/entities/CalculateTask'
 import { SubmitTask } from '@application/models/SubmitTask'
 import { ICalculateTask } from '@domain/entities/ICalculateTask'

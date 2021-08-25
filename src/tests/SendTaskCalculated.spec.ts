@@ -1,6 +1,6 @@
 
 import axios from 'axios'
-import TaskServices from '@infraestructure/services/TaskServices'
+import TaskServices from '@infrastructure/services/TaskServices'
 import { SendTaskCalculated } from '@application/usecases/send-task-calculated/SendTaskCalculated'
 import config from '@config/config.json'
 

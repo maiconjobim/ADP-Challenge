@@ -5,13 +5,13 @@ import { OperationEnum } from './OperationEnum'
 export class CalculateTask implements ICalculateTask {
   calculate (left: number, right: number, operation: OperationEnum) {
     const strategy = {
-      division: this.division(left, right),
-      addition: this.addition(left, right),
-      subtraction: this.subtraction(left, right),
-      multiplication: this.multiplication(left, right),
-      remainder: this.remainder(left, right)
+      division: this.division,
+      addition: this.addition,
+      subtraction: this.subtraction,
+      multiplication: this.multiplication,
+      remainder: this.remainder
     }
-    return strategy[operation]
+    return strategy[operation](left, right)
   }
 
   division (left: number, right: number):number {

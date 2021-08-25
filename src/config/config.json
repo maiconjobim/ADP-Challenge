@@ -1,8 +1,0 @@
-{
-  "httpConfig":{
-    "baseURL": "https://interview.adpeai.com/api/v1/",
-    "timeout": 5000
-  },
-  "poolingTime":3000
-
-}

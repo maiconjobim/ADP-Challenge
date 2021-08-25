@@ -1,5 +1,4 @@
-import { OperationEnum } from '@models/OperationEnum'
-import BigNumber from 'bignumber.js'
+import { OperationEnum } from './OperationEnum'
 
 export interface ICalculateTask {
 

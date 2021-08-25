@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  adpchallenge:
+    image: adpchallenge
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      BASE_URL: "https://interview.adpeai.com/api/v1/"
+      TIMEOUT: "5000"
+      POOLING_SPAN: "3000"
+    ports:
+      - 3000:3000
